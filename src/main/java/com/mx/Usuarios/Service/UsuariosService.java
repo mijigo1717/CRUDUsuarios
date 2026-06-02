@@ -45,7 +45,7 @@ public class UsuariosService implements IUsuariosService{
 		return  dao.findByNombreIgnoreCase(nombre);
 	}
 	
-	public List <Usuarios> buscarPorStatus(String area){
-		return dao.findByStatusIgnoreCase(area);
+	public List <Usuarios> buscarPorStatus(String status){
+		return dao.findByStatusIgnoreCase(status);
 	}
 }

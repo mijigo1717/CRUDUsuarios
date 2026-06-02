@@ -17,5 +17,18 @@ public class Usuarios {
 	private String status;
 	private String estado;
 	
+	public Usuarios(Integer id, String nombre, String email, String status, String estado) {
+		this.id = id;
+		this.nombre = nombre;
+		this.email = email;
+		this.status = status;
+		this.estado = estado;
+	}
+
+	public Usuarios() {
+	}
+	
+	
+	
 	
 }
